@@ -4,7 +4,7 @@ import Logo from "../assets/Logo";
 function Navbar() {
   return (
     <>
-      <div className="w-screen px-3 flex py-10 items-center justify-between md:hidden">
+      <div className="w-full flex py-10 items-center justify-between md:hidden">
         <div className="flex">
           <Logo width={80} />
         </div>

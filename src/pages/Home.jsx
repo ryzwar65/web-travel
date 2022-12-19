@@ -11,17 +11,17 @@ function Home() {
         <div className="absolute w-full">
           <BackgroundDecore />
         </div>
-        <div className="z-10">
+        <div className="z-10 px-3">
           <Navbar />
         </div>
         <div className="flex flex-col z-10 p-3">
           <p className="font-bold uppercase text-[#DF6951] text-md">
             Best Destinations around the world
           </p>
-          <p className="font-bold text-[#181E4B] text-6xl py-3">
+          <p className="font-bold text-[#181E4B] text-4xl py-5">
             Travel, enjoy and live a new and full life
           </p>
-          <p className="font-bold text-[#5E6282] text-lg">
+          <p className="font-bold text-[#5E6282] text-lg py-5">
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
             west hard for the.
@@ -42,14 +42,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="hidden md:flex md:flex-col md:w-screen md:min-w-full md:max-w-screen-lg md:px-36">
+      <div className="hidden md:flex md:flex-col md:w-full md:min-w-full md:max-w-screen-lg md:px-20">
         <div className="absolute top-0 bottom-0 right-0 z-0">
           <BackgroundDecore width={704} height={724} />
         </div>
         <div className="flex z-10">
           <Navbar />
         </div>
-        <div className="flex  items-center justify-evenly z-10">
+        <div className="flex items-center justify-between z-10">
           <div className="flex flex-col">
             <p className="font-bold uppercase text-[#DF6951] text-xl">
               Best Destinations around the world
