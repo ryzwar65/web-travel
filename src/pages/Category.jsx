@@ -2,6 +2,9 @@ import React from "react";
 import SettingsIcon from "../assets/SettingsIcon";
 import Card from "../components/Card";
 import DecorateOne from "../assets/DecorateOne";
+import LocalEvent from "../assets/LocalEvent";
+import CalculateWeather from "../assets/CalculateWeather";
+import BestFlight from "../assets/BestFlight";
 
 function Category() {
   return (
@@ -21,23 +24,23 @@ function Category() {
           </div>
         </div>
       </div>
-      <div className="flex space-x-10">
+      <div className="flex space-x-20">
         <Card>
-          <SettingsIcon width={77} height={66} />
+          <CalculateWeather width={92} height={78} />
           <p className="font-bold pt-3">Calculated Weather</p>
           <p className="text-sm text-center py-3">
             Built Wicket longer admire do barton vanity itself do in it.
           </p>
         </Card>
         <Card>
-          <SettingsIcon width={77} height={66} />
+          <BestFlight width={110} height={100} />
           <p className="font-bold pt-3">Best Flights</p>
           <p className="text-sm text-center py-3">
             Engrossed listening. Park gate sell they west hard for the.
           </p>
         </Card>
         <Card>
-          <SettingsIcon width={77} height={66} />
+          <LocalEvent width={67} height={75} />
           <p className="font-bold pt-3">Local Events</p>
           <p className="text-sm text-center py-3">
             Barton vanity itself do in it. Preferd to men it engrossed
